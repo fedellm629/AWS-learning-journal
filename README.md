@@ -47,21 +47,29 @@ Example:
 #100DaysOfCloud #AWS #PhoneOnly #LearningInPublic
 
 
-## Day 3: August 31,2026
-## Topic: AWS S3 Basics 
+> **Biggest lesson**: If IAM is weak, your whole AWS account is at risk
+---
+#100DaysOfCloud #AWS #PhoneOnly #LearningInPublic
 
-"If IAM is weak, your whole AWS account is at risk", 
+## Day 3: August 31, 2026
+## Topic: AWS S3 Basics
+
+"If IAM is weak, your whole AWS account is at risk"
 
 In today's #100DaysOfCloud, I learned:
 - How to create S3 buckets with Boto3
-- Upload files to S3
+- Upload files to S3 
 - Apply bucket policies with JSON
 - Difference between IAM Policy and Bucket Policy
 
 ## How to Run
 1. `pip install boto3`
-2. `aws configure` 
+2. `aws configure`
 3. `python day3_s3.py`
 
 ## Key Takeaway
-S3 is object storage. Buckets hold objects. Policies control who can access them.
+S3 is object storage. Buckets hold objects. Permissions matter.
+Master IAM and S3 policies early.
+
+---
+Day 3 ✅ | 97 Days to go
