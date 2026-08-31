@@ -43,6 +43,9 @@ Example:
 
 **Biggest lesson**: If IAM is weak, your whole AWS account is at risk
 
+
+
+
 ---
 #100DaysOfCloud #AWS #PhoneOnly #LearningInPublic
 
