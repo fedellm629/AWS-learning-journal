@@ -76,3 +76,25 @@ Master IAM and S3 policies early.
 
 ---
 Day 3 ✅ | 97 Days to go
+
+
+
+
+
+# Day 4 - Sept 1: EC2 & Auto Scaling
+
+## What I Built
+Simulated EC2 virtual servers and Auto Scaling Groups using boto3 + moto on Android phone.
+
+## Key AWS Skills
+- **EC2**: Launch/stop virtual servers
+- **AMI**: Operating system template
+- **t2.micro**: Free tier instance type
+- **Auto Scaling**: Automatically add/remove servers based on traffic
+- **Launch Configuration**: Template for new servers
+
+## Why This Matters
+This is how companies handle 1M users. When traffic spikes, Auto Scaling adds more servers.
+
+## Run It
+`python day4_ec2.py`
